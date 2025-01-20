@@ -8,7 +8,7 @@
         <header class="pt-5 border-bottom bg-light">
             <div class="container pt-md-1 pb-md-1">
                 <h1 class="bd-title mt-4 font-weight-bold"><i class="fa fa-image" aria-hidden="true"></i> GALERI</h1>
-                <p class="bd-lead">Galeri Foto terbaru tentang SMK Indonesia.</p>
+                <p class="bd-lead">Galeri Foto terbaru tentang My School.</p>
             </div>
         </header>
 
