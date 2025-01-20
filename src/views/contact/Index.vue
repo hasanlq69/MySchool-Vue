@@ -34,7 +34,7 @@
                     <div class="card border-0 shadow-sm rounded">
                         <div class="card-body">
                             <iframe
-                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d253840.4878845067!2d106.6894283352192!3d-6.229728025238589!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f3e945e34b9d%3A0x5371bf0fdad786a2!2sJakarta%2C%20Daerah%20Khusus%20Ibukota%20Jakarta!5e0!3m2!1sid!2sid!4v1594508000901!5m2!1sid!2sid"
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3958.5111539331638!2d110.45847437438586!3d-7.1823628928226775!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e70844e08fcaf71%3A0xdd389f3ec8c9b897!2sBalai%20Dusun.%20Duwet!5e0!3m2!1sid!2sid!4v1737374606148!5m2!1sid!2sid"
                                 width="100%" height="400" frameborder="0" style="border:0;" allowfullscreen=""
                                 aria-hidden="false" tabindex="0"></iframe>
                         </div>
@@ -46,14 +46,13 @@
                             <h3>KONTAK KAMI</h3>
                             <hr>
                             <p>
-                                <i class="fa fa-map-marker" aria-hidden="true"></i> Jl. Jendral Sudirman No.83, Daerah
-                                Khusus Ibukota Jakarta, Indonesia
+                                <i class="fa fa-map-marker" aria-hidden="true"></i> Jl. Pringapus Ungaran Kab.Semarang, Indonesia
                             </p>
                             <p>
-                                <i class="fas fa-phone"></i> +62857-8585-2224
+                                <i class="fas fa-phone"></i> +62857-2599-3706
                             </p>
                             <p>
-                                <i class="fas fa-envelope"></i> info@smkindonesia.sch.id
+                                <i class="fas fa-envelope"></i> hasanlq69@gmail.com
                             </p>
                         </div>
                     </div>
