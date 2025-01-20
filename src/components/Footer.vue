@@ -6,7 +6,7 @@
                     <h5>TENTANG</h5>
                     <hr>
                     <p>
-                        Sekolah Menengah Kejuruan adalah pendidikan formal yang menyelenggarakan pendidikan kejuruan pada jenjang pendidikan menengah sebagai lanjutan dari SMP/MTs.
+                        My School adalah pendidikan formal yang menyelenggarakan pendidikan koding pada jenjang pendidikan menengah sebagai lanjutan dari SMP/MTs.
                     </p>
                 </div>
                 <div class="col-md-4">
@@ -23,8 +23,8 @@
                     <h5>KONTAK</h5>
                     <hr>
                     <p>
-                        <i class="fa fa-map-marker" aria-hidden="true"></i> Jl. Jendral Sudirman No.83, Daerah Khusus Ibukota Jakarta, Indonesia
-                        <i class="fas fa-phone"></i> +62857-8585-2224
+                        <i class="fa fa-map-marker" aria-hidden="true"></i> Jl. Pringapus Ungaran Kab.Semarang Indonesia
+                        <i class="fas fa-phone"></i> +62857-2599-3706
                     </p>
                 </div>
             </div>
@@ -32,7 +32,7 @@
         <div class="container-fluid bg-dark">
             <div class="row p-3">
                 <div class="text-center text-white font-weight-bold">
-                    Copyright © 2020 SMK INDONESIA. All rights reserved.
+                    Copyright © 2025 My School Muhammad Hasan. All rights reserved.
                 </div>
             </div>
         </div>
