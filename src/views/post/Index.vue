@@ -146,14 +146,14 @@
                         if (response.data.data.current_page < response.data.data.last_page) {
 
                                 //set state moreExists to true
-                                moreExists = true
+                                moreExists.value = true
 
                                 //increment nextPage
-                                nextPage = response.data.data.current_page + 1
+                                nextPage.value = response.data.data.current_page + 1
                         } else {
 
                                 //set state moreExists to false
-                                this.moreExists = false
+                                moreExists.value = false
                         }
 
                         //assign response to state posts
