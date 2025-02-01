@@ -243,7 +243,7 @@
             const posts_loader = ref(3);
 
             const videos = ref([]);
-            const videos_loader = ref([]);
+            const videos_loader = ref(2);
 
             const events = ref([]);
             const events_loader = ref(2);
