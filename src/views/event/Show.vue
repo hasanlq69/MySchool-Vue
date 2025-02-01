@@ -77,16 +77,21 @@
                     </div>
 
                     <div v-if="events.length > 0">
-                        <router-link :to="{name: 'detail_event', params:{slug: event.slug}}" v-for="event in events" :key="event.id" class="text-decoration-none text-dark">
+                        <router-link
+                        :to="{name: 'detail_event', params:{slug: singleEvent.slug}}"
+                        v-for="singleEvent in events"
+                        :key="singleEvent.id"
+                        class="text-decoration-none text-dark nav-link"
+                        active-class="active">
                             <div class="card mb-3 shadow-sm border-0">
                                 <div class="card-body">
-                                    <h6>{{ event.title }}</h6>
+                                    <h6>{{ singleEvent.title }}</h6>
                                     <hr>
                                     <div>
-                                        <i class="fa fa-map-marker" aria-hidden="true"></i> {{ event.location }}
+                                        <i class="fa fa-map-marker" aria-hidden="true"></i> {{ singleEvent.location }}
                                     </div>
                                     <div class="mt-2">
-                                        <i class="fa fa-calendar" aria-hidden="true"></i> {{ event.date }}
+                                        <i class="fa fa-calendar" aria-hidden="true"></i> {{ singleEvent.date }}
                                     </div>
                                 </div>
                             </div>
@@ -130,7 +135,7 @@
     import axios from 'axios';
 
     //import hook onMounted from vue
-    import { ref, onMounted } from 'vue';
+    import { ref, onMounted, watch } from 'vue';
 
     //import hook useRoute
     import { useRoute } from 'vue-router';
@@ -161,21 +166,29 @@
             //define route
             const route = useRoute();
 
-            //run hook onMounted
-            onMounted(() => {
-
-                //get detail event
+            // Function untuk mengambil data dari API
+            const fetchData = () => {
+                // Ambil detail event berdasarkan slug di URL
                 axios.get(`/api/event/${route.params.slug}`)
                     .then(response => {
-                        event.value = response.data.data
-                    })
+                        event.value = response.data.data;
+                    });
 
-                //get event sidebar
+                // Ambil daftar event untuk sidebar
                 axios.get('/api/homepage/event')
                     .then(response => {
-                        events.value = response.data.data
-                    })
+                        events.value = response.data.data;
+                    });
+            };
 
+            // Panggil saat komponen dimuat
+            onMounted(() => {
+                fetchData();
+            });
+
+            // Watcher untuk memantau perubahan slug di route
+            watch(() => route.params.slug, () => {
+                fetchData(); // Ambil ulang data saat slug berubah
             });
 
             return {
